@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: "The\ Bigmaker";
+  src: url("../public/fonts/The\ Bigmaker.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Garet-Book";
+  src: url("../public/fonts/Garet-Book.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  line-height: 1.1;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(36, 36, 36);
+  background-color: rgba(255, 255, 255, 0.932);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
