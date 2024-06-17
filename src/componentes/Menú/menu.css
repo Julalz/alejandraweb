@@ -84,7 +84,6 @@
   left: 180px;
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;

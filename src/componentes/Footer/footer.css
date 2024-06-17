@@ -1,5 +1,3 @@
-/* Estilos generales */
-
 .footer {
   color: rgb(160, 160, 160);
   padding: 40px 0;
@@ -57,7 +55,7 @@
 .footer-form {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra los elementos en columnas */
+  align-items: center;
   margin-top: 15px;
 }
 
@@ -91,10 +89,9 @@
   padding: 10px 0;
 }
 
-/* Estilos responsivos */
 @media screen and (max-width: 992px) {
   .row {
-    flex-direction: column; /* Cambia a columna en resoluciones menores para apilar verticalmente */
+    flex-direction: column;
     justify-content: ;
   }
   .footer-links {

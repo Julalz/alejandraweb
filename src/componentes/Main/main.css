@@ -10,7 +10,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 20px; Espacio entre la decoración y el slider */
 }
 
 .decoration::before,
@@ -19,20 +18,19 @@
   display: inline-block;
   width: 10px;
   height: 10px;
-  background-color: #ccc; /* Color de los puntos */
-  margin: 0 5px; /* Espacio entre los puntos */
-  border-radius: 50%; /* Para hacer los puntos redondos */
+  background-color: #ccc;
+  margin: 0 5px;
+  border-radius: 50%;
 }
 
 .slider-container {
   width: 80%;
   max-width: 600px;
   margin-top: 200px;
-  margin-bottom: 20px; /* Espacio entre la decoración y el slider */
 }
 
 .slider-container img {
-  max-width: 100%; /* Asegura que la imagen no sea más grande que el contenedor */
-  height: auto; /* Permite que la altura se ajuste automáticamente */
-  display: block; /* Elimina el espacio adicional debajo de la imagen */
+  max-width: 100%;
+  height: auto;
+  display: block;
 }

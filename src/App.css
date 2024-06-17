@@ -11,14 +11,12 @@
   text-align: center;
 }
 
-/* Dispositivos medianos (tabletas) */
 @media (max-width: 768px) {
   #root {
     padding: 1.5rem;
   }
 }
 
-/* Dispositivos pequeños (teléfonos) */
 @media (max-width: 480px) {
   #root {
     padding: 1rem;
